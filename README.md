@@ -1,6 +1,8 @@
 # Waterlock Local Auth
 
-[![Build Status](http://img.shields.io/travis/waterlock/waterlock-local-auth.svg?style=flat)](https://travis-ci.org/waterlock/waterlock-local-auth) [![NPM version](http://img.shields.io/npm/v/waterlock-local-auth.svg?style=flat)](http://badge.fury.io/js/waterlock-local-auth) [![Dependency Status](http://img.shields.io/gemnasium/davidrivera/waterlock-local-auth.svg?style=flat)](https://gemnasium.com/davidrivera/waterlock-local-auth)
+[![Build Status](http://img.shields.io/travis/waterlock/waterlock-local-auth.svg?style=flat)](https://travis-ci.org/waterlock/waterlock-local-auth) [![npm version](https://badge.fury.io/js/waterlock-local-auth-nativejs.svg)](https://badge.fury.io/js/waterlock-local-auth-nativejs) [![Dependency Status](https://gemnasium.com/badges/github.com/TareqElMasri/waterlock-local-auth.svg)](https://gemnasium.com/github.com/TareqElMasri/waterlock-local-auth)
+
+[![NPM](https://nodei.co/npm/waterlock-local-auth-nativejs.png)](https://npmjs.org/package/waterlock-local-auth-nativejs)
 
 waterlock-local-auth is a module for [waterlock](http://waterlock.ninja/)
 providing a local authentication method for users either based on username or email.
@@ -8,7 +10,7 @@ providing a local authentication method for users either based on username or em
 ## Usage
 
 ```bash
-npm install waterlock-local-auth
+npm install waterlock-local-auth-nativejs
 ```
 
 set the following option in your `waterlock.js` config file
@@ -16,7 +18,7 @@ set the following option in your `waterlock.js` config file
 ```js
 authMethod:[
 	{
-		name: "waterlock-local-auth",
+		name: "waterlock-local-auth-nativejs",
 		passwordReset: {
 			tokens: boolean, // object containing information regarding password resets
 
