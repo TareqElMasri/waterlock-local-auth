@@ -1,6 +1,6 @@
 {
   "name": "waterlock-local-auth-nativejs",
-  "version": "v0.1.5",
+  "version": "v0.1.6",
   "description": "local authentication for waterlock",
   "main": "index.js",
   "scripts": {
